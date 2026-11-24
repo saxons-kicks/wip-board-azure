@@ -5,7 +5,7 @@
 - Type: Chrome Extension (Manifest V3)
 - Main goal: monitor WIP in Azure DevOps boards with configurable rules and visual alerts.
 - Current repository visibility: public GitHub repository.
-- Public repo reference: https://github.com/mateussmeneses/wip-board-azure
+- Public repo reference: https://github.com/saxons-kicks/wip-board-azure
 
 ## Why This Project Exists
 This extension was created to help delivery teams monitor WIP limits directly on Azure DevOps boards, reducing manual counting and making bottlenecks visible in real time.

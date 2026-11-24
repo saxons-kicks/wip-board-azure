@@ -708,7 +708,7 @@ async function getVersion() {
     const i18n = getLanguagePack(languageData.language);
 
     // Remote check is best-effort. If network fails, skip warning to avoid false positives.
-    const webResponse = await fetch('https://raw.githubusercontent.com/mateussmeneses/wip-board-azure/refs/heads/master/version.json', {
+    const webResponse = await fetch('https://raw.githubusercontent.com/saxons-kicks/wip-board-azure/refs/heads/master/version.json', {
       cache: 'no-store',
       headers: { 'Cache-Control': 'no-cache' },
     });
@@ -729,7 +729,7 @@ async function getVersion() {
 
     alert(i18n.t('outdatedExtension'));
     console.clear();
-    console.warn('https://codeload.github.com/mateussmeneses/wip-board-azure/zip/refs/heads/master');
+    console.warn('https://codeload.github.com/saxons-kicks/wip-board-azure/zip/refs/heads/master');
   } catch (err) {
     // Silent fallback: version check should never break runtime flow.
     console.debug('[WIP-Board] Version check skipped (error).', err);
